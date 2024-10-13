@@ -1,0 +1,178 @@
+
+@import 'scss/_utilidades/_variables';
+@import 'scss/_utilidades/_mapas';
+@import 'scss/contactos.scss';
+@media (min-width: 768px) and (max-width: 1024px){
+    #carouselExampleFade{
+        display:block;
+        margin-top: 100px;
+        border-top: 1px outset $borde_1;
+        padding-top: 50px;
+    }
+    
+    .img_carru{
+        height: 600px;
+        width: 500px;
+    display: block;
+    width: 500px;
+    margin:0 auto;
+   }
+
+   .text-home{
+    margin:30px;
+   }
+
+.descrip{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    p{
+            font-size: 18x;
+    }
+    img{
+        width: 400px;
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+}
+
+.descripcion_Promo{
+   
+    display: flex;
+    flex-direction: row;
+    
+    column-gap: 20px;
+    justify-content: space-evenly;
+    p{
+        font-size: 20px;
+    }
+}
+   
+
+
+
+
+/*carrito de compras */
+
+.envios{
+    display: flex;
+    flex-direction: row;
+    
+    width: 650px;
+    
+    height: 200px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 15px;
+    p{
+        margin-left:5px;
+        margin-right:5px;
+    }
+    button{
+        margin-left: 10px;
+        margin-right:10px;
+
+    }
+}
+
+.box-carrito{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+
+}
+
+
+
+
+/*  estilos de contacto */
+
+.box_li_redes{
+ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 400px;
+
+    li{
+        height: 100px;
+    }
+}
+
+
+.box_comentarios{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+
+
+.entrada_nombre {
+  width: 350px !important;
+       
+}
+.entrada_email{
+    width: 350px !important;
+  
+    }
+
+
+
+
+
+    
+
+    /*estilos de Productos*/
+
+    .box_productos{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 360px 360px;
+        row-gap: 50px;
+        margin-bottom: 100px;
+    }
+
+
+    .product_card{
+        margin: 0 auto;
+        width: 300px;
+        img{
+            width:200px;
+        }
+    }
+
+    .data_producto{
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+        width: 100%;
+      
+    }
+
+
+
+    /*Info Productos*/
+
+    .box_article_info{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 400px 1fr;
+        row-gap: 20px;
+    }
+    .box_articulo_producto{
+        grid-column: 1 / 3;
+    }
+
+
+    .descipcion_remera{
+        width: 90%;
+        padding-left: 12px;
+        
+    }
+
+    .detalles_info{
+        width: 88%;
+    }
+/*No borrar el ultimo corchete*/
+}

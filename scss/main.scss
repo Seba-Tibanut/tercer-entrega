@@ -1,0 +1,42 @@
+/*Importamos los archivos scss que referencian a las pages*/
+@import 'scss/carrito.scss';    
+@import 'scss/contactos.scss';
+@import 'scss/info-producto.scss';
+@import 'scss/productos.scss';
+@import 'scss/home.scss';
+
+/*Implementacion de media queries*/
+
+@import 'scss/mq/tablet.scss';
+@import 'scss/mq/desktop.scss';
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100%;
+}
+
+h1 {
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+

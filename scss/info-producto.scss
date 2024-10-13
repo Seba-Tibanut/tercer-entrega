@@ -1,0 +1,75 @@
+@import 'scss/_utilidades/_variables.scss';
+@import 'scss/_utilidades/_mapas.scss';
+@import 'scss/_utilidades/_mixin.scss';
+@import './scss/carrito.scss';
+@import './scss/home.scss';
+
+
+
+
+
+.titulo_h1_info{
+    @extend .h1_carrito;
+}
+
+.box_articulo_producto{
+    h2{
+        text-align:center;
+        margin:15px;
+    }
+
+}
+.box_article_info{
+    width: 100%;
+}
+
+.Box_img_producto{
+    box-shadow: 1px 2px 15px black;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 90%;
+    @include flexbox (flex,row,center);
+             
+}
+.img_produto_info{
+   width:370px;
+   
+   
+}
+
+
+.box_flecha{
+    display: flex;
+    flex-direction: column;
+    width: 50px;   
+    align-items: center;
+    justify-content: center;
+}
+
+
+.flechaiz{
+    width: 30px; 
+    border-radius: 50px;
+   
+}
+
+.descipcion_remera{
+    margin: 0 auto;
+    @include margen(20px,20px);
+    width: 85%;
+    
+    
+}
+
+
+.flechader{
+   border-radius: 50px;
+   width: 30px;
+   
+}
+
+.detalles_info {
+    height: max-content;
+    @extend .data_producto;
+    width: 100%;
+}

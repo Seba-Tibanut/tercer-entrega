@@ -1,0 +1,98 @@
+@import 'scss/_utilidades/_variables';
+@import 'scss/_utilidades/_mapas';
+@import 'scss/contactos.scss';
+
+
+
+
+@media (min-width: 1024px) {
+ .logo_home{
+    width:470px ;
+    height: 440px;
+ }
+.logo {
+    width: 600px;
+    top: -19px;
+}
+
+.text-home{
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.sub_titulo{
+    font-size: 30px;
+
+
+}
+
+.img_home{
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+.descripcion_Promo{
+    margin-bottom:50px ;
+    margin-top: 50px;
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 22px;
+    }
+
+
+}
+
+
+
+
+/*estilos mi carrito*/
+
+.main_carrito{
+ display: grid;
+ grid-template-columns: 500px 80%;
+ grid-template-rows: 500px 400px;
+}
+
+.h3_carrito{
+    width: 400px;
+}
+
+.box-carrito{
+    width: 400px;
+    height: 500px;
+    flex-grow: 2;
+    margin-top: 65px;
+}
+.box_detalles_carrito{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+
+
+.box_productos{
+    display:grid;
+    grid-template-columns: 400px 400px 400px ;
+    grid-template-rows: 650px;
+
+}
+
+
+
+.box_li_redes{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    li{
+        width: 250px;
+        height: 200px;
+    }
+}
+
+
+  }

@@ -1,0 +1,26 @@
+@mixin p_GENERAL ($font,$color,$margin,$cuerpo){
+    font-size: $font;
+    color: $color;
+    margin:$margin;
+    font-weight: $cuerpo;
+
+}
+
+@mixin margen ($top,$bottom){
+    margin-top:$top;
+    margin-bottom:$bottom;
+}
+
+@mixin flexbox ($display,$direction,$centrar){
+    display: $display;
+    flex-direction:$direction;
+    justify-content:$centrar;
+    
+}
+
+@mixin h3 ($zide,$color,$margin){
+    font-size: $zide;
+    color:$color;
+    margin:$margin;
+    
+}
